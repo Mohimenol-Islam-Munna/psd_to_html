@@ -1,0 +1,103 @@
+/*========================
+    header CSS
+==========================*/
+.brand{
+    position: relative;
+}
+
+
+.brand::before{
+
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 100%;
+    left: -3000px;
+    bottom: 0;
+    background-color: #007BFF;
+}
+
+
+.menu-item:hover{
+
+    /* border-bottom: 2px solid #007BFF; */
+
+}
+
+
+/*===========================
+    hero area  
+=============================*/
+.hero-area{
+
+    background-image: url(../images/header-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px 50px;
+
+}
+
+.hero-footer{
+
+    margin-top: 150px;
+}
+
+/*========================
+    medium box CSS
+==========================*/
+.medium-box{
+
+    background-color: #f6f6f6;
+}
+
+.feature-image{
+    position: relative;
+}
+
+.feature-item{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}
+
+/*========================
+    large box CSS
+==========================*/
+
+.large-box{
+
+    background-image: url(../images/pic-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px 30px;
+}
+
+/*========================
+    large box CSS
+==========================*/
+.newsletter{
+
+    background-image: url(../images/news.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.newsletter form{
+
+    position: relative;
+}
+
+.newsletter form input[type=text] {
+
+    border: none;
+    border-radius: 20px;
+}
+
+.newsletter form input[type=submit] {
+
+    position: absolute;
+    right: 0;
+    border: none;
+    border-radius: 20px;
+}
