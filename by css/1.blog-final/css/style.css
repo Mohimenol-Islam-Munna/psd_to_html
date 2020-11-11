@@ -1,0 +1,418 @@
+/*==============================
+    Common CSS
+================================*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+
+    max-width: 1050px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*==============================
+    Navigation Menu CSS
+================================*/
+.navigation-menu{
+
+    display: block;
+    line-height: 60px;
+    
+}
+
+.navigation-menu .brand{
+
+    width: 20%;
+    float: left;
+    background-color: #1a54e7;
+    text-align: center;
+    position: relative;
+}
+
+.brand::before{
+
+    position: absolute;
+    content: '';
+    background-color: #1a54e7;
+    top: 0;
+    left: -3000px;
+    bottom: 0;
+    right: 100%;
+    
+}
+
+
+.navigation-menu .brand a{
+
+    color: #ffffff;
+}
+
+.navigation-menu .menu-list{
+    
+    width: 80%;
+    float: left;
+    background-color: #ffffff;
+}
+
+.menu-list ul{
+
+   text-align: right;
+
+}
+
+.menu-list ul li{
+
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-list ul li:hover{
+
+    color: #1a54e7;
+    border-bottom: 2px solid #1a54e7;
+}
+
+.menu-list ul li a{
+
+    color: black;
+}
+
+.navigation-menu::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.navigation-menu::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/*==============================
+    Header Section CSS
+================================*/
+.header{
+
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    position: relative;
+    background-image: url(../images/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* slider icon  */
+.left-icon{
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.right-icon{
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+
+.header .container{
+    padding: 20px;
+
+}
+
+.header .profile{
+
+    text-align: center;
+}
+
+.header .content{
+
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+.header .extra{
+
+    margin-top: 70px;
+
+}
+.header .extra button{
+
+    background-color: #1a54e7;
+    padding: 8px 15px;
+    color: #ffffff;
+    border: none;
+}
+.header .extra p{
+
+    float: right;
+}
+
+.header .extra p span{
+
+    margin-right: 8px;
+    color: #b0b0b0;
+}
+
+.header .extra p span:last-child{
+
+   color: #1a54e7;
+   border-left: 1px solid #b0b0b0;
+   padding-left: 8px;
+
+}
+
+
+
+.header::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.header::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/*==============================
+    First & third Content Section CSS
+================================*/
+.first-section{
+
+    width: 100%;
+    background-color: #f6f6f6;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.first-section .container .card{
+
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.card p span:first-child{
+
+    color: #b0b0b0;
+    border-right: 2px solid #b0b0b0;
+}
+
+.card p span:last-child{
+
+    color: #1a54e7;
+    margin-left: 5px;
+}
+
+.first-section::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.first-section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/*==============================
+    Second Content Section CSS
+================================*/
+.second-section{
+
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+
+        /*==============================
+            Second sub Section1 CSS
+        ================================*/
+.second-section .second-sub-section1{
+
+    width: 100%;
+    padding: 100px 0px 30px;
+    color: #ffffff;
+    background-image: url(../images/pic-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-sub-section1 h2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.second-sub-section1 p{
+    
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.second-sub-section1 .extra{
+
+    margin-top: 50px;
+
+}
+.second-sub-section1 .extra button{
+
+    background-color: #d90445;
+    padding: 8px 15px;
+    color: #ffffff;
+    border: none;
+}
+.second-sub-section1 .extra p{
+
+    float: right;
+    text-align: right;
+}
+
+.second-sub-section1 .extra p span{
+
+    margin-right: 8px;
+    color: #b0b0b0;
+}
+
+.second-sub-section1 .extra p span:last-child{
+
+   color: #1a54e7;
+   border-left: 1px solid #b0b0b0;
+   padding-left: 8px;
+
+}
+
+        /*==============================
+            Second sub Section2 and Section3 CSS
+        ================================*/
+
+.second-section .second-sub-section2{
+
+    width: 100%;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.second-sub-section2 .card{
+
+    width: 31.42%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-sub-section2 .card:last-child{
+
+    margin-right: 0px;
+}
+
+/*==============================
+    Newsletter CSS
+================================*/
+.newsletter{
+
+    width: 100%;
+    background-image: url(../images/news.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.newsletter .content{
+
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.newsletter .content h2, p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.subscribe{
+    
+    position: relative;
+    margin-top: 25px;
+}
+
+.subscribe input[type=email] {
+
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #2c6cff;
+
+}
+
+.subscribe input[type=submit] {
+
+    width: 30%;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+
+}
+
+
+/*==============================
+    Footer CSS
+================================*/
+footer{
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.footer-content{
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #a7acbc;
+}
+
+/*=======================================
+    The End
+=========================================*/
