@@ -1,0 +1,146 @@
+/*================
+    common style
+==================*/
+    /* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/*================
+    header section
+==================*/
+.custom-header{
+
+    position: relative;
+}
+
+.custom-header nav{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-content{
+
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+}
+.header-content {
+
+    font-size: 20px;
+}
+/*=========================
+   activity section 
+===========================*/
+.icon{
+    
+    color: #bbbbbb;
+    font-size: 24px;
+
+}
+
+/*=========================
+   customer service section 
+===========================*/
+
+.customer-service{
+
+  
+   padding: 260px 0px;
+   background-image: url(../images/service.jpg);
+   background-position: center center;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.customer-service h2{
+    color: #7d67ad;
+}
+
+.customer-service .custom-btn{
+
+    background-color: #503392;
+}
+
+/*=========================
+   our portfolio section 
+===========================*/
+
+.portfolio-btn{
+
+    border: 2px solid #503392;
+}
+
+/*=========================
+  statistics-section 
+===========================*/
+
+.statistics-section{
+
+    background-image: url(../images/s1.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    position: relative;
+}
+
+.statistics-section::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #513a8c;
+    opacity: 0.8;
+
+
+}
+
+/*=========================
+  contact section 
+===========================*/
+
+.contact-section{
+
+    background-color: #232323;
+}
+
+.contact-form form input, textarea{
+
+    background-color: #232323;
+
+}
+
+.contact-form form textarea{
+
+    background-color: #232323;
+
+}
+
+
+.contact-form form input[type=submit] {
+
+    background-color: #503392;
+    border: none;
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+/*=========================
+  contact section 
+===========================*/
+
+.footer-section{
+
+    background-color: #1f1f1f;
+}
